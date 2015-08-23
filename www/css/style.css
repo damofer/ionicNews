@@ -1,0 +1,340 @@
+/* Empty. Add your own CSS if you like */
+.list.card{
+
+    margin: -4px;
+}
+
+img{
+
+	max-width: 100%;
+	
+	opacity: 1;
+	
+              
+
+
+ 
+}
+
+
+.thumbnail{
+
+	position: relative;
+	float: left;
+
+	
+
+}
+
+.overlay{
+
+	z-index: 1;
+
+
+height: 100%;
+width: 100%;
+
+ 
+    opacity: 0.3;
+    
+    position: absolute;
+    background: black;
+    bottom: 5px;
+    margin-bottom: ;
+   
+    
+
+}
+
+  .texto_leermas{
+
+position: absolute;
+	top:60%;
+	left:5%;
+	
+	color: white;
+	font-size: 11px;
+	opacity: 1;
+	z-index: 1;
+
+
+}
+
+
+.texto_interno{
+
+	position: absolute;
+	top:45%;
+	left:5%;
+	
+	color: white;
+	font-size: 20px;
+	opacity: 1;
+	z-index: 1;
+
+}
+.texto_noticia{
+
+	position: absolute;
+	top:30%;
+	left:8%;
+	
+	color: white;
+	font-size: 11px;
+	opacity: 1;
+	z-index: 1;
+
+}
+.category-icon{
+position: absolute;
+left: -15px;
+top:3px;
+	
+}
+.logo-icon{
+position: fixed;
+left: 5%;
+top:45px;
+height: 28px;
+	
+}
+.logo-info{
+position: fixed;
+float: right;
+right: 5%;
+top:45px;
+height: 28px;
+z-index:1;
+	
+}
+.logo-info_services{
+position: fixed;
+float: right;
+right: 5%;
+top:45px;
+height: 28px;
+z-index:1;
+}
+.logo-info_main{
+position: fixed;
+float: right;
+right: 5%;
+top:45px;
+height: 28px;
+z-index:1;
+	
+}
+.logo-info_servicetab{
+position: fixed;
+
+left: 90%;
+height: 24px;
+top: 40px;
+	
+}
+
+body{
+
+	margin-top:0;
+}
+
+.header_img_div{
+
+
+
+	position: relative;
+	float: left;
+
+	
+
+margin-right: -1px;
+margin-bottom: -15px
+
+}
+
+.overlay_header{
+
+z-index: 1;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgb(29, 146, 134);
+    bottom: 13px;
+    
+
+}
+
+.overlay_header_new{
+
+z-index: 1;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: black;
+    bottom: 1px;
+    margin-bottom:0 ;
+
+}
+.padding{
+
+	padding:1px;
+}
+
+.texto_noticia_header{
+
+	position: absolute;
+	top:55%;
+	left:5%;
+	
+	color: white;
+	font-size: 13px;
+	opacity: 1;
+	z-index: 1;
+
+}
+
+.texto_interno_header{
+
+	position: absolute;
+	top:65%;
+	left:5%;
+	
+	color: white;
+	font-size: 23px;
+	opacity: 1;
+	z-index: 1;
+
+
+}
+
+.texto_interno_header_servicios{
+
+	position: absolute;
+	top:80%;
+	left:7%;
+	
+	color: white;
+	font-size: 23px;
+	opacity: 1;
+	z-index: 1;
+
+
+}
+p{
+	font-family:sans-serif;
+	
+	font-weight: 50;
+	letter-spacing:1px;
+}
+.parrafo{
+
+position: relative;
+	
+	
+	margin-right: 7%;
+	margin-left: 7%;
+	
+	color: black;
+	
+	opacity: 1;
+	
+
+}
+.parrafo_grande{
+
+position: relative;
+	
+	
+	margin-right: 7%;
+	margin-left: 7%;
+	text-align: justify;
+	
+	color: black;
+
+	
+	opacity: 1;
+	z-index: 1;
+	
+
+}
+.parrafo_fecha{
+
+position: relative;
+	margin-top:7%;
+	left:7%;
+	
+	color: black;
+	font-size: 11px;
+	
+	opacity: 1;
+	
+	
+
+}
+
+.back_button{
+	
+
+max-width: 30px;
+height: 20px;
+	
+	position: fixed;
+	z-index: 1;
+	top: 45px;
+	
+
+}
+.back_button_services{
+	
+
+
+max-width: 30px;
+height: 20px;
+	
+	position: fixed;
+	z-index: 1;
+	top: 45px;
+	
+
+}
+
+
+
+.bar-positive{
+
+	height:80px;
+}
+.listaServicios{
+
+margin-top:30px;
+}
+
+.title.title-center.header-item{
+
+	top: 30px;
+}
+
+#boton_reserva{
+
+position: relative;
+left: 10%;
+
+
+
+}
+
+.button-positive{
+
+	left:7%;
+	-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+	
+}  
+
+.button-clear {
+
+	left:7%;
+}

@@ -1,0 +1,99 @@
+<ion-view hide-back-button="true" title="Awesome">
+
+ 
+  <ion-content padding="true">
+
+
+    <div class="header_img_div"> 
+      <img class="header_img"data-ng-src="{{imageList[6].img_url}}">
+
+ 
+      <div class="overlay_header">
+
+        
+    </div>
+ 
+ <a nav-transition="ios" href="#/tab/main/{{imageList[6].position}}" ng-click ="SetNew({{6}})">
+
+
+    <p class ="texto_noticia_header">
+      <img class ="logo-icon"data-ng-src="img/ideaware_logo.png">    
+     <img class ="logo-info_main"data-ng-src="img/logo_info.png">    
+     
+      <img class ="category-icon"data-ng-src="img/category/{{imageList[6].category}}.png">   
+      {{imageList[6].category}}<br>
+         
+           <p class ="texto_interno_header">
+
+            {{imageList[6].name}}
+
+             
+          </p>
+
+        </p>
+        </a>
+  </div>
+
+    <!-- <button class="button" ng-click="toIntro()">Do Tutorial Again</button> 
+
+href="#/tab/main/{{image.position}}"
+
+  -->
+
+
+    <div class="list card" data-ng-repeat="image in imageList" ng-controller="MainCtrl" >
+    
+                         
+          <div class="thumbnail" > 
+                <img data-ng-src="{{image.thumb}}">
+            <div class="overlay" > 
+              <a nav-transition="ios" href="#/tab/main/{{image.position}}" ng-click ="SetNew({{image.position}})">
+            
+             </a>
+             </div>
+
+              <a nav-transition="ios" href="#/tab/main/{{image.position}}" ng-click ="SetNew({{image.position}})">
+                  <p class ="texto_noticia" >
+
+  
+                     <img class ="category-icon"data-ng-src="img/category/{{image.category}}.png">  {{image.category}}<br>
+         
+                    <p class ="texto_interno">
+
+                    {{image.name}}
+                    </p>
+
+                     <p class ="texto_leermas">
+
+                    {{"Leer mas >"}}
+                    </p>
+
+
+                    </img>
+             </a>
+           
+  
+
+     </div>
+
+
+      
+      <div class="item item-image" data-ng-click="setActive($index)" data-ng-if="image.image_url.indexOf('gif') > -1">
+
+        <img data-ng-if="!image.active" data-ng-src="{{image.image_teaser_url}}">
+        <img data-ng-show="image.active" data-ng-src="{{image.image_url}}">
+      </div>
+      <!--
+      <a class="item item-icon-left  bar bar-royal" target="_blank" data-ng-href="{{image.url}}">
+        <i class="icon ion-music-note energized"></i>
+        Visit Original Image
+      </a>
+    -->
+   
+    <ion-infinite-scroll
+     
+      distance="5%" data-ng-if="page < 10">
+    </ion-infinite-scroll>
+  </ion-content>
+
+</ion-view>

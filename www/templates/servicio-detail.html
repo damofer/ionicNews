@@ -1,0 +1,61 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+
+
+  <ion-content class="padding">
+    
+    
+
+
+<img ng-src="{{chat.img_url}}" style="width: 100%;"> 
+
+     <div class="overlay_header_new">   
+
+    </div>
+
+
+    <p class ="texto_interno_header" ng-controller ="MainCtrl" style="width:100px;">
+
+
+    <img class ="back_button_services" data-ng-src="img/icons/backarrow.png"data-ng-click ="myGoBack()"></img>
+    
+         
+          
+            
+           
+            
+            <p class ="texto_interno_header_servicios">
+              {{chat.name}}
+            </p>
+
+           
+
+              
+          </p>
+
+        <p class ="parrafo_fecha">
+              {{chat.schedule}}<br><br>
+                </p>
+              <p class ="parrafo_grande">
+                 {{chat.large_text}}
+        </p>        
+
+
+              </p>
+
+
+
+  </ion-content>
+</ion-view>
+
+
+
+  
+
+    
+         
+

@@ -1,0 +1,128 @@
+[
+	{
+		"name": "Bitcoin toma fuerza",
+		"position": "0",
+		
+		"thumb" : "img/news-thumb/bitcoin.jpg",
+		"category":"Noticia",
+		"img_url" : "img/news/bitcoin.jpg"	,
+		"date":"JUNIO 15, 6:40 AM",
+		"text": ["Al cierre del segundo trimestre del año, existen ya 5 millones 327 mil 688", 
+				"cuentas digitales de Bitcoin, cifra un 696 por ciento superior a la que se ",
+				"registró al fin del segundo trimestre del 2013. ",
+				"De acuerdo con el reporte State of Bitcoin elaborado por Coindesk con datos ",
+				"hasta junio, la moneda virtual tiene ya un valor de capitalización de mercado ",
+				"de 8 mil 300 millones de dólares, cifra que resulta de multiplicar el precio de ",
+				"las bitcoin por la cantidad total de ellas que circula en el mercado."]
+
+	},
+	{
+		"name": "Tomorrowland 2015!",
+		"position": "1",
+		
+		"thumb" : "img/news-thumb/tomorrowland.jpg",
+		"category":"Evento"	,	
+		"img_url" : "img/news/tomorrowland.png"	,
+		"date":"ENERO 12, 2:30 PM",
+		"text":	["Tomorrowland es un festival de música electrónica que nació hace",
+		 "una década en Boom, Bélgica. Tradicionalmente se lleva a cabo el último fin",
+		 " de semana de julio, y cada año el evento logra reunir aproximadamente 450.000 asistentes.",
+			"En diez años Tomorrowland se ha convertido en una de las citas más importantes",
+			"para la escena de la música electrónica en el mundo, por lo que en 2013 se creó ",
+			"el festival derivado TomorrowWorld, que se organiza en Georgia, Estados Unidos, ",
+			"cita que este 2015 está programada para septiembre.",
+			"Este año Tomorrowland abre por primera vez sus puertas en Latinoamérica, específicamente",
+			 "en Brasil, entre el primero y el 3 de mayo próximos. Más de 150 DJ de 19 países se reunirán",
+			  "en el Parque Maeda, de la ciudad de Itu, estado de Sao Paulo."]
+	},
+	{
+		"name": "Batman VS Superman en 2016",
+		"position": "2",
+		
+		"thumb" : "img/news-thumb/batmanvssuperman.jpg",
+		"category":"Noticia",
+		"img_url" : "img/news/batmanvssuperman.jpg"	,
+		"date":"AGOSTO 5, 3:12 AM"	,
+
+		"text": ["La película 'Batman Vs Superman', que se anunciaba como uno",
+		 "de los estrenos más esperados de 2015, se hará esperar, de momento, ",
+		" hasta el 6 de mayo de 2016. La secuela de 'Man of Steel (El hombre de acero'),",
+		 "que iba a ser estrenada el 17 de julio de 2015, no lo hará hasta casi un año", 
+		 "más tarde debido a retrasos en la producción, según acaba de anunciar el estudio ",
+		 "encargado del proyecto, Warner Bros Pictures, que asegura que 'la decisión ha sido tomada ",
+		  "para concretar una visión total de la cinta'"]
+	},
+	{
+		"name": "Eminem comienza nuevo Album",
+		"position": "3",
+		
+		"thumb" : "img/news-thumb/eminem.jpg",
+		"category":"Noticia",
+		"img_url" : "img/news/eminem.jpg"		,
+		"date":"MARZO 7, 1:00 PM",
+		"text":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+		 "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+		  "nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		   "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu",
+		    "fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
+		    "culpa qui officia deserunt mollit anim id est laborum."]
+	},
+	{
+		"name": "London Concert Festival 2015",
+		"position": "4",
+		
+		"thumb" : "img/news-thumb/londonConcert.jpg",
+		"category":"Evento"	,
+		"img_url" : "img/news/londonconcert.jpg"	,
+		"date":"MAYO 17, 3:40 PM"	,
+
+		"text":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+		 "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+		  "nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		   "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu",
+		    "fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
+		    "culpa qui officia deserunt mollit anim id est laborum."]
+
+
+	},
+	{
+		"name": "Dolar caro supera los 2.974 pesos",
+		"position": "5",
+		
+		"thumb" : "img/news-thumb/dollar.jpg",
+		"category":"Noticia"	,
+		"img_url" : "img/news/dollar.jpg"	,
+		"date":"ABRIL 17, 12:40 PM",
+
+		"text":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+		 "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+		  "nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		   "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu",
+		    "fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
+		    "culpa qui officia deserunt mollit anim id est laborum."]
+
+
+	},
+
+	{
+		"name": " Del Toro Dice SI A Pacific Rim 2",
+		"position": "6",
+		
+		"thumb" : "img/news-thumb/pacific-rim.jpg",
+		"category":"Noticia"	,
+		"img_url" : "img/news/pacific-rim.jpg"	,
+		"date":"AGOSTO 8, 7:02PM",
+
+		"text":["‘Pacific Rim’ es de esas películas que siempre se especula que habrá una segunda parte pero parece que no llega a arrancar el proyecto, ahora Guillermo del Toro parece que si confirma que empezará a planificarse ‘Pacific Rim 2′, además también dará lugar a una trilogía.",
+" Al final de ‘Pacific Rim’, nuestros héroes Raleigh Becket (Charlie Hunnam) y Mako Mori (Rinko Kikuchi) habían sellado con éxito la brecha y salvado a la humanidad para siempre … o quizá no."
+
+		]
+
+
+	}
+	
+	
+    
+
+	
+]

@@ -1,0 +1,24 @@
+ 
+<ion-view id ="tituloServicios"view-title="Servicios">
+<ion-nav-bar class="bar-positive" id="barra_servicios" align-title="center">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+  <ion-content>
+ 
+    <ion-list >
+    <div class="listaServicios">
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
+        <img ng-src="{{chat.face}}">
+        <h2>{{chat.name}}</h2>
+        <p>{{chat.lastText}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(chat)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,90 @@
+
+
+
+
+
+  <ion-content class="padding" data-ng-controller ="MainCtrl" >
+ 
+
+   <!--AQUI EMPIEZA EL OVERLAY-->
+    <div style="position:relative">
+    <img ng-src="{{imageList[ReturnNew()].img_url}}" style="width: 100%;">
+    
+     <div class="overlay_header_new"></div>
+ <p class ="texto_noticia_header">
+      <img class ="category-icon" data-ng-src="img/category/{{imageList[ReturnNew()].category}}.png">
+       {{imageList[ReturnNew()].category}}
+      </p>    
+           <p class ="texto_interno_header">
+
+              {{imageList[ReturnNew()].name}}
+          </p>
+
+     </div>
+      <!--AQUI TERMINA EL OVERLAY-->
+        
+    
+   
+
+
+
+   <img class ="back_button"data-ng-src="img/icons/backarrow.png"style="width:100px;" data-ng-click ="myGoBack()">
+   <img class ="logo-info_main"data-ng-src="img/logo_info.png">    
+
+
+
+    
+
+
+				<p class ="parrafo_fecha">
+              {{imageList[ReturnNew()].date}}<br><br>
+              	</p>
+
+              <p class ="parrafo_grande">
+              	 {{imageList[ReturnNew()].text.join("")}}
+				</p>         
+
+              </p>
+
+              
+
+              <div ng-switch on="imageList[ReturnNew()].category">
+    <div ng-switch-when="Evento">
+        <!-- code to render a large video block-->
+
+              <br><br>
+                <button class="button button-positive" icon="ion-android-contact" id ="boton_reservas">
+               <img src="img/icons/icono_reserva.png" height ="15px;"> Haz una reserva
+                </button>
+
+              <br><br>
+
+                <button class="button button-clear ">
+                   <img src="img/icons/comparte.png" height ="15px;"> Comparte
+                </button>
+
+   </div>
+
+        
+    
+    <div ng-switch-default>
+        <!-- code to render the regular video block -->
+
+         <br><br>
+
+                <button class="button button-clear ">
+                   <img src="img/icons/comparte.png" height ="15px;"> Comparte
+                </button>
+
+    </div>
+</div>
+              
+          </ion-content>
+
+
+     
+
+    
+
+  
+

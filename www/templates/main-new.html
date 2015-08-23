@@ -1,0 +1,43 @@
+
+
+  <ion-content class="padding" data-ng-controller ="MainCtrl" >
+ 
+    <img ng-src="img/news/pacific-rim.jpg" style="width: 100%;">
+    
+     <div class="overlay_header_new">
+        
+    </div>
+    <p class ="texto_noticia_header">
+
+
+
+   <img class ="back_button"data-ng-src="img/icons/backarrow.png"style="width:100px;" data-ng-click ="myGoBack()">
+
+</img>
+
+      <img class ="category-icon"data-ng-src="img/category/{{imageList[ReturnNew()].category}}.png">
+       {{imageList[ReturnNew()].category}}
+         
+           <p class ="texto_interno_header">
+
+              {{imageList[ReturnNew()].name}}
+          </p>
+
+
+				<p class ="parrafo_fecha">
+              {{imageList[ReturnNew()].date}}<br><br>
+              	</p>
+
+              <p class ="parrafo_grande">
+              	 {{imageList[ReturnNew()].text.join("")}}
+				</p>
+
+
+
+              
+
+              </p>
+          </ion-content>
+
+
+     
