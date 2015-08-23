@@ -2,7 +2,7 @@
 
 This is just a sample with Ionic + AngularJS
 
-its a Simple News app, that receives feeds via JSON file and Services (Noticias and Servicios tabs)
+its a Simple News app that receives feeds via JSON file and Services (Noticias and Servicios tabs)
 
 
 ![Alt text] (/www/img/sample/Capture1.JPG "News")
